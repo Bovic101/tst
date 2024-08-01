@@ -1,9 +1,9 @@
 #include <stdio.h>
-int ft_strcmp(char *s1, char *s2);
+#include <string.h>
 
 int main() 
 {
-    char str1 []= "Hello my boy";
+    char str1 []= "Hello my boy is fine";
     char str2 []= "World is ok";
 
     int result = ft_strcmp(str1, str2);
